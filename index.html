@@ -4,7 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Start</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.css"
+      integrity="sha512-gA2Bvu0/hw4oj0Lp8ZHjK+o3S4BE5m8d/wNVy6ktKLhHKPpWLQwv9ixzuWirWOakoJqlBdePq2NhoCaUOQ5npQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./reset.css" />
   </head>
   <body>
     <header>
@@ -21,54 +29,26 @@
     <main>
       <section class="hero">
         <img src="./img/image 1.png" alt="myfoto" />
-        <p>Hello! I Am Viktoriya Korniyenko</p>
-        <p>A Designer who</p>
-        <h2>Judges a book by its cover...</h2>
-        <p>Because if the cover does not impress you what else can?</p>
+        <p class="hero-name">
+          Hello! I Am <span class="hero-span">Viktoriya Korniyenko</span>
+        </p>
+        <p class="hero-text">A Designer who</p>
+        <h2 class="hero-title">
+          Judges a book by its <span class="hero-span"> cover </span>...
+        </h2>
+        <p class="hero-text">
+          Because if the cover does not impress you what else can?
+        </p>
 
-        <h1>I'm a Software Engineer.|</h1>
-        <p>Currently, I'm a Software Engineer at Facebook,</p>
-        <p>
+        <h1 class="hero-title">I'm a Software Engineer.|</h1>
+        <p class="hero-description">
+          Currently, I'm a Software Engineer at Facebook,
+        </p>
+        <p class="hero-description">
           A self-taught UI/UX designer, functioning in the industry for 3+ years
           now. I make meaningful and delightful digital products that create an
           equilibrium between user needs and business goals.
         </p>
-      </section>
-      <section class="work-experience">
-        <h2 class="work-title">Work Experience</h2>
-        <ul class="work-list">
-          <li class="work-item">
-            <h3>CIB on the Mobile</h3>
-            <p>
-              Take your client onboard seamlessly by our amazing tool of digital
-              onboard process.
-            </p>
-          </li>
-          <li class="work-item">
-            <h3 class="work-item-title">CIB on the Mobile</h3>
-            <p class="work-item-text">
-              Take your client onboard seamlessly by our amazing tool of digital
-              onboard process.
-            </p>
-            <button type="submit" class="work-btn">LEARN MORE</button>
-          </li>
-          <li class="work-item">
-            <h3 class="work-item-title">CIB on the Mobile</h3>
-            <p class="work-item-text">
-              Take your client onboard seamlessly by our amazing tool of digital
-              onboard process.
-            </p>
-            <button type="submit" class="work-btn">LEARN MORE</button>
-          </li>
-          <li class="work-item">
-            <h3 class="work-item-title">CIB on the Mobile</h3>
-            <p class="work-item-text">
-              Take your client onboard seamlessly by our amazing tool of digital
-              onboard process.
-            </p>
-            <button type="submit" class="work-btn">LEARN MORE</button>
-          </li>
-        </ul>
       </section>
 
       <section class="projects">
@@ -96,15 +76,16 @@
         </ul>
       </section>
     </main>
+
     <footer>
       <h3 class="footer-title">Contact</h3>
-      <p>
+      <p class="footer-text">
         I'm currently looking to join a cross-functional team that values
         improving people's lives through accessible design. or have a project in
         mind? Let's connect.
       </p>
-      <address>
-        <a href="tel:+14251234563">+1(425) 123-45-63</a>
+      <address class="footer-text">
+        <a href="tel:+393922671725">+39 392-26-717-25</a>
         <a href="mailto:example@mail.pig">example@mail.pig</a>
       </address>
       <ul class="social">

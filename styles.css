@@ -1,3 +1,86 @@
 body {
   background-color: blueviolet;
 }
+
+/*-----------------Header------------------*/
+.header-navigation {
+  box-shadow: 0 6px 22px -3px rgba(0, 0, 0, 0.1);
+  background: #1a0b2e;
+  width: 100%;
+}
+.header-item {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #fff;
+}
+
+/*-----------------Hero------------------*/
+.hero-name {
+  font-family: "Preahvihear", sans-serif;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 5.10526;
+  letter-spacing: -0.03em;
+  text-align: center;
+  color: #fff;
+}
+.hero-span {
+  color: #7127ba;
+}
+.hero-text {
+  font-family: "Preahvihear", sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  letter-spacing: 0.02em;
+  text-decoration-skip-ink: none;
+  text-align: center;
+  color: #fff;
+}
+.hero-title {
+  font-family: "Preahvihear", sans-serif;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 1.26664;
+  letter-spacing: 0.02em;
+  color: #fff;
+}
+.hero-description {
+  font-family: "Preahvihear", sans-serif;
+  font-weight: 400;
+  font-size: 21px;
+  letter-spacing: 0.02em;
+  color: #fff;
+}
+
+/*---------------projects--------------*/
+.projects-title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 34px;
+  letter-spacing: 0.02em;
+  color: #ccd6f6;
+}
+.projects-text {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  color: #ccd6f6;
+}
+/*---------------footer--------------*/
+.footer-title {
+  font-family: "Preahvihear", sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  letter-spacing: 0.02em;
+  color: #fff;
+}
+.footer-text {
+  font-family: "Preahvihear", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  letter-spacing: 0.02em;
+  color: #fff;
+}
